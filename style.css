@@ -42,5 +42,26 @@
     display: flex;
     justify-content: center;
     margin-top: 16px;
-    gap: 32px;
+    gap: 64px;
+}
+#header2 div {
+    width: 400px;
+}
+#header2 div > #mheader {
+    margin-bottom: 0px;
+    margin-top: 16px;
+}
+#header2 div button {
+    background-color: #3882F6;
+    border-radius: 4px;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    color: #F9FAF8;
+    width: 128px;
+    height: 32px;
+}
+#mheader {
+    color: #F9FAF8;
+    font-weight: bold;
+    font-size: 48px;
 }

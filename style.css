@@ -1,0 +1,46 @@
+* {
+    font-family: 'Roboto', sans-serif;
+    background-color: #1F2937;
+    border: 2px red;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    gap: 256px;
+}
+
+.header > #exhero {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+}
+
+/* hero */
+.header > #exhero > .hero {
+    margin-top: 8px;
+}
+#lheader {
+    /* text */
+    color: #F9FAF8;
+    font-size: 18px;
+    font-weight: 100;
+}
+
+/* headertxt */
+.header > #headertxt {
+    margin: 0px;
+}
+#bheader {
+    /* text */
+    color: #F9FAF8;
+    font-weight: bold;
+    font-size: 24px;    
+}
+
+#header2 {
+    display: flex;
+    justify-content: center;
+    margin-top: 16px;
+    gap: 32px;
+}

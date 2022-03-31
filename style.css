@@ -4,6 +4,10 @@
     border: 2px red;
 }
 
+body {
+    margin: 0px;
+}
+
 .header {
     display: flex;
     justify-content: center;
@@ -25,6 +29,7 @@
     color: #F9FAF8;
     font-size: 18px;
     font-weight: 100;
+    margin-top: 0px;
 }
 
 /* headertxt */
@@ -64,4 +69,117 @@
     color: #F9FAF8;
     font-weight: bold;
     font-size: 48px;
+}
+
+/* random info */
+#randominfo {
+    display: flex;
+    justify-content: center;
+    gap: 64px;
+}
+#randominfotxt {
+    color: #1F2937;
+    text-align: center;
+    padding-top: 16px;
+}
+#main > * {
+    background-color: #F9FAF8;
+}
+#main {
+    background-color: #F9FAF8;
+    padding-bottom: 64px;
+}
+.info {
+    background-color: #F9FAF8;
+    width: 128px;
+    height: 192px;
+}
+.info div {
+    border-radius: 10px;
+    border: solid #3882F6;
+    border-width: 3px 3px;
+    background-color: #F9FAF8;
+    width: 128px;
+    height: 128px;
+}
+.sinfotxt {
+    color: #1F2937;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    background-color: #F9FAF8;
+    text-align: center;
+    font-weight: 100;
+    margin-left: 10px;
+}
+#quote {
+    background-color: #E5E7EB;
+    height: 240px;
+    margin-top: 32px;
+    margin-bottom: 64px;
+}
+#quotetxt {
+    text-align: center;
+    margin-bottom: 0px;
+    font-weight: 100;
+    font-style: italic;
+    font-size: 36px;
+    color: #1F2937;
+    background-color: #E5E7EB;
+}
+#quoteperson {
+    text-align: right;
+    margin-top: 0px;
+    font-size: 36px;
+    font-weight: bold;
+    color: #1F2937;
+    background-color: #E5E7EB;
+}
+#txtgroup {
+    margin: auto;
+    padding-top: 64px;
+    width: 600px;
+    background-color: #E5E7EB;
+}
+#signup {
+    display: flex;
+    margin-left: 20%;
+    margin-right: 20%;
+    border: solid #3882F6;
+    border-radius: 10px;
+    border-width: 5px 5px;
+    gap: 64px;
+    justify-content: center;
+    background-color: #3882F6;
+    
+}
+#signup > * > * {
+    background-color: #3882F6;
+}
+#signup > * > h1 {
+    margin-bottom: 0px;
+    margin-left: 16px;
+}
+#signup > * > p {
+    margin-top: 0px;
+    margin-left: 16px;
+}
+#signup div {
+    color: #F9FAF8;
+    background-color: #3882F6;
+}
+#signup button {
+    background-color: #3882F6;
+    border-radius: 5px;
+    border: solid 3px #F9FAF8;
+    margin: auto;
+    color: #F9FAF8;
+    width: 100px;
+    height: 32px;
+    font-weight: bold;
+}
+#footer {
+    padding-top: 16px;
+    padding-bottom: 16px;
+    text-align: center;
+    color: #F9FAF8;
 }
